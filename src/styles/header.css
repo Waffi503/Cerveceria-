@@ -1,0 +1,29 @@
+body{
+    background-color: var(--primary-color);
+}
+.Menu-ul{
+    position: fixed;
+    list-style-type: none;
+    margin:0;
+    margin-right: 1.2em;
+    width: 100vw;
+    background-color: var(--light-primary);
+}
+.Header-logo{
+    width: 100vw;
+    color:var(--beige-200);
+    background-color: white;
+
+}
+.Menu-ul li{
+    display:inline-block;
+    padding-top: 0.7em;
+    margin-bottom: 1em;
+    margin-right: 1.2em;
+    font-size: 1.5em;
+    color:var(--beige-200);
+}
+
+.Header{
+    background-color: var(--primary-color);
+}
