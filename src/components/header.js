@@ -4,16 +4,15 @@ export default class Header extends Component{
 
     render(){
         return(
-            <div className="Header"> 
-            <header className="Header-logo">
-                <img src="https://i.imgur.com/rtBgb6v.png" alt="logo"/>
-            </header>
+            
             <ul className="Menu-ul">
-                <li>Productos</li>
-                <li>Contacto</li>
-                 <li>Informacion</li>
+                <li className="logo">Axel Cervezeria</li>
+                <li className="elemnt">Productos</li>
+                <li className="elemnt">Contacto</li>
+                <li className="elemnt">Informacion</li>
             </ul>
-            </div>
+          
+            
 
         )
     }
