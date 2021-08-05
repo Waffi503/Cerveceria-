@@ -2,16 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top:5em ;
-    background-color: var( --beige-200);
     width: 100vw;
     height: 40em;
     z-index: 0;
+    padding-top:2em;
+    
+}
+.color-beige{
+    background-color: var( --beige-200);
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height:100vh;
+    width: 100vw;
     justify-items: center;
     align-items: center;
+    
 }
-
 .container-desc{
 text-align: center;
 font-family: 'Open Sans Condensed', sans-serif;
