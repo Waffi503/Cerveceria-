@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-
 .menu{
     z-index: 1;
     position: fixed;
@@ -20,21 +19,24 @@
     margin-right: 30px;
    
 }
+
 .Menu-ul li{
     border-radius: 3px;
     margin: 0 5px;
 }
+
 .Menu-ul li a:hover, a.activado{
     color: white;
     cursor: pointer;
 }
+
 .Menu-ul li a{
     padding: 7px 13px;
     font-size: 1.1em;
     text-decoration: none;
-    
     display: block;
-   }
+}
+
 .no-activado{
     color:var(--beige-200);
 }
@@ -42,14 +44,16 @@
 .logo{
     padding: 0 80px;
     font-size: 35px;
+    font-weight: none;
     display:inline-block;
     font-family: 'Oswald', sans-serif;
     color:white;
-    font-weight: none;
 }
+
 .logo:hover{
     cursor: pointer;
 }
+
 .btn-menu{
     margin-right: 20px;
     font-size: 25px;
@@ -57,6 +61,7 @@
     cursor: pointer;
     display: none;
 }
+
 ul.show{
     top: 65px;
     height: 100vh;
@@ -66,6 +71,7 @@ ul.show{
         font-size: 30px;
         padding-left: 35px;
     }
+
     .Menu-ul li a {
         font-size: 16px;
     }
@@ -75,29 +81,32 @@ ul.show{
     .menu{
         height: 65px;
     }
+
     .btn-menu{
         display: inline-flex;
     }
+
     .Menu-ul{
         position: fixed;
         width: 100vw;
-        height: calc(100%-65px);
         background: #414141;
         top:-100vh;
         text-align: center;
         transition: all .4s;
         flex-direction: column;
     }
+
     .Menu-ul li {
         margin: 30px 0 0;
         line-height: 30px;
     }
+
     .Menu-ul li a{
         font-size: 20px;
     }
+
     .logo{
         font-size: 25px;
         padding-left: 35px;
     }
-    
 }

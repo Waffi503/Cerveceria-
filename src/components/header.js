@@ -6,9 +6,7 @@ export default class Header extends Component{
    
     render(){
         function showmenu(){
-           
             document.getElementById("menu-items").classList.toggle("show");
-    
         }
 
         return(

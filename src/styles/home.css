@@ -1,37 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
 .container{
-    display: grid;
     width: 100vw;
-    height: 40em;
     z-index: 0;
     padding-top:2em;
-    
 }
+
 .color-beige{
     background-color: var( --beige-200);
 }
+
 .contenedor-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     height:100vh;
     width: 100vw;
+    grid-template-columns: 50% 50%;
     justify-items: center;
     align-items: center;
-    
+    overflow: hidden;
 }
+
 .container-desc{
-text-align: center;
-font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+
 .container-desc p{
     margin-top: 2em;
-    
 }
 
 .container-desc h1 {
     font-weight: 0;
     color: var(--primary-color);
-   
- 
 }
