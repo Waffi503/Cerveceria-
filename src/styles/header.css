@@ -25,11 +25,14 @@
     margin: 0 5px;
 }
 
-.Menu-ul li a:hover, a.activado{
+.Menu-ul li a:hover{
     color: white;
     cursor: pointer;
 }
+.enable{
+    color:white;
 
+}
 .Menu-ul li a{
     padding: 7px 13px;
     font-size: 1.1em;
@@ -37,7 +40,7 @@
     display: block;
 }
 
-.no-activado{
+.disabled{
     color:var(--beige-200);
 }
 

@@ -1,8 +1,8 @@
 import Header from "../components/header";
 import '../styles/home.css';
-export default function Home(){
+export default function Informacion(){
     return(
-<><Header productos="disabled" informacion="disabled" inicio="enable" contacto="disabled"/>
+<><Header productos="disabled" informacion="enable" inicio="disabled" contacto="disabled"/>
         
 <div className="container"></div>
 
