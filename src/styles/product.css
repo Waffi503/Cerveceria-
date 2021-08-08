@@ -8,9 +8,11 @@
 }
 
 .color-beige{
-    background-color: var( --beige-200);
+   background-color: var(--beige-200);
 }
-
+.container-img{
+    width: 18em;
+}
 .contenedor-grid{
     display: grid;
     height:100vh;

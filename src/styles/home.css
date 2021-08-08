@@ -1,5 +1,25 @@
 .container{
+    display: grid;
     width: 100vw;
     height: 100vh;
     background-color: var(--beige-200);
 }
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(31, 29, 29);
+    justify-items: center;
+}
+.logo-hero{
+    max-width: 100%;
+    display: block;
+    width:25em;
+    height: 25em;
+    padding-top: 4em;
+    }
+    .sub-titulo{
+        color: white;
+    }
