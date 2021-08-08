@@ -3,9 +3,8 @@
   margin: 0;
 }
 :root{
-  --primary-color: #402218;
-  --light-primary:#865439;
-  --beige-400:#C68B59;
-  --beige-200:#D7B19D;
+  --primary-color: black;
+  --gray-400:rgb(64,64,64);
+  --gray-200:rgb(185,185,185);
 
 }

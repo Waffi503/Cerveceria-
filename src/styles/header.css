@@ -10,7 +10,7 @@
     align-items: center;
     border-bottom: 1px solid #fff;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-    background-color: var(--light-primary);
+    background-color: var(--primary-color);
 }
 
 .Menu-ul{
@@ -41,7 +41,7 @@
 }
 
 .disabled{
-    color:var(--beige-200);
+    color:var(--gray-400);
 }
 
 .logo{

@@ -6,8 +6,7 @@ export default function Home(){
         
 <div className="container">
         <div className="hero">
-            <img alt="logo" className="logo-hero" src="https://i.imgur.com/0nY2hco.png"/>
-            <h1 className="sub-titulo">BIWALAX</h1>
+         <img alt="logo" className="logo-hero" src="https://i.imgur.com/0nY2hco.png"/>
         </div>
 </div>
 

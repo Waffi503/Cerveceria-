@@ -2,7 +2,8 @@
     display: grid;
     width: 100vw;
     height: 100vh;
-    background-color: var(--beige-200);
+    background-color: var(--gray-200);
+    
 }
 
 .hero{
@@ -10,7 +11,9 @@
     grid-template-columns: 1fr;
     width: 100vw;
     height: fit-content;
-    background-color: rgb(31, 29, 29);
+    background: url(https://previews.123rf.com/images/oksix/oksix1410/oksix141000347/32930390-la-cebada-y-el-l%C3%BApulo-en-un-fondo-de-madera-concepto-de-la-cerveza.jpg);
+    background-size:cover ;
+    background-color: linear-gradient(rgba(0,0,0 .50) 0%,rgba(0,0,0 .50) 100%) ;
     justify-items: center;
 }
 .logo-hero{
