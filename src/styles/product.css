@@ -39,7 +39,8 @@
 }
 
 .container-desc h1 {
-    font-weight: 0;
+    font-family: var(--font-dark);
+    font-weight: 100;
     color: var(--primary-color);
 }
 @media screen and (max-width:858px){

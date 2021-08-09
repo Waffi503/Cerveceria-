@@ -6,7 +6,7 @@ export default function Home(){
         
 <div className="container-hero">
         <div className="hero">
-         <img alt="logo" className="logo-hero" src="https://i.imgur.com/0nY2hco.png"/>
+         <img alt="logo" className="logo-hero" src="https://i.imgur.com/0Ce0UCl.png"/>
         </div>
 </div>
 

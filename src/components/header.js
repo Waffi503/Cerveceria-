@@ -12,7 +12,10 @@ export default function Header({inicio,productos,contacto,informacion}){
        
 
             <div className="menu">
+                <div className="container-logo">
+                    <img className="logo-header" src="https://i.imgur.com/0nY2hco.png"/>
                 <h1 className="logo">BIWALAX</h1>
+                </div>
                 <ul id="menu-items" className="Menu-ul">
                     <li><Link className={inicio} href="/" >Inicio</Link></li>
                     <li><Link className={productos} href="/productos" >Productos</Link></li>
