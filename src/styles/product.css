@@ -2,37 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 
 .container{
-    width: 100vw;
+    width: 100%;
     z-index: 0;
-    padding-top:2em;
 }
 
 .color-beige{
    background-color: var(--gray-200);
 }
 .container-img{
-    width: 18em;
+    height: 30em;
+    padding: 2em 0;
+}
+.img-product{
+    height: 100%;
 }
 .contenedor-grid{
-    display: grid;
-    height:100vh;
-    width: 100vw;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-flow:row wrap;
+    width: 100%;
     justify-items: center;
     align-items: center;
-    overflow: hidden;
+    justify-content: space-around;
+    margin-bottom: 2em;
 }
 
 .container-desc{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+    width: 40%;
+    
 }
 
 .container-desc p{
     margin-top: 2em;
+    
 }
 
 .container-desc h1 {
     font-weight: 0;
     color: var(--primary-color);
+}
+@media screen and (max-width:858px){
+
+    .container-desc{
+        width: auto;
+        margin: 0 1em;
+    }
 }
