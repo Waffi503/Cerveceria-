@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 .container{
     width: 100%;
@@ -34,14 +35,29 @@
 }
 
 .container-desc p{
-    margin-top: 2em;
+    margin-top: 0.5em;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3em;
     
+}
+.container-border{
+    
+    background: url(https://i.imgur.com/VkdYLLk.png) no-repeat;
+    display: flex;
+    width: 100%;
+    height: 25px;
 }
 
 .container-desc h1 {
-    font-family: var(--font-dark);
-    font-weight: 100;
+    border-image: url(https://i.imgur.com/WByZ4nh.jpg);
+    border-bottom: 1px;
+    padding-top: 1em;
+    font-family: var(--font-lumen);
+    font-weight: 300;
     color: var(--primary-color);
+}
+@media screen and (max-width:1050px){
+    
 }
 @media screen and (max-width:858px){
 

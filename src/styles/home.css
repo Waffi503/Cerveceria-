@@ -9,6 +9,10 @@
 .hero{
    height: 30em;
 }
+.relleno{
+height: 100vh;
+background-color: black;    
+}
 .logo-hero{
     max-width: 100%;
     height: 100%;

@@ -6,8 +6,9 @@ export default function Home(){
         
 <div className="container-hero">
         <div className="hero">
-         <img alt="logo" className="logo-hero" src="https://i.imgur.com/0Ce0UCl.png"/>
+         <img alt="logo" className="logo-hero" src="https://i.imgur.com/bohZKXj.jpg"/>
         </div>
+        <div className="relleno"></div>
 </div>
 
 </>
